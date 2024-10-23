@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Luiz Otávio Ferreira Silva, desenvolvedor de sistemas.">
+    <title>Portfólio - Luiz Otávio Ferreira Silva</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <div class="gradient-text" style="color: black; font-family: 'Press Start 2P', cursive;"><b>Luiz Otávio</b></div>
+            <ul class="nav-links">
+              <img src="photos/dragon.png" alt="icon" style="height: 30px;">  
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Photo -->
+    <header id="home">
+        <div class="hero-content">
+            <div class="profile-photo">
+                <img src="photos/IMG_1503.JPG" alt="Foto perfil">
+            </div>
+            <h1 style="color: black;">Olá, sou Luiz Otávio Ferreira Silva</h1>
+            <p style="color: black;">Desenvolvedor de Sistemas | UX Designer | Técnico em T.I</p>
+            <a style=text-decoration:none; href="#portfolio" class="btn">Veja Alguns de meus projetos</a>
+        </div>
+    </header>
+
+    <!-- Sobre mim Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <br>
+            <p>Sou formado em Técnico em Informática pelo Instituto Federal de Ciência e Tecnologia do Triângulo Mineiro, graduando na área de Análise e Desenvolvimento de Sistemas e desenvolvedor apaixonado por criar soluções tecnológicas inovadoras. Tenho experiência em front-end, UX design, e prototipação</p>. 
+            <br><br>
+            <h2 style="text-align: center;">Tópico de conhecimentos: </h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>Banco De Dados SQL server</li>
+                <li>Bootstrap</li>
+                <li>UX Design</li>
+                <li>Figma</li>
+                <li>Microsoft Office  365</li>
+                <li>Front-end</li>
+            </ul>
+            
+            <!-- Links para Redes Sociais com Ícones -->
+            <div class="social-links">
+                <a href="https://github.com/CyberAngel24" target="_blank" class="icon-link">
+                    <img style="box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); border-radius: 5px;" src="photos/GitHub-Logo.png" alt="github" class="custom-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/luiz-otavio-ferreira-silva-55b523225/" target="_blank" class="icon-link">
+                    <img style="box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); border-radius: 5px;" src="photos/linkedin.png" alt="linkedin" class="custom-icon">
+                </a>
+                <a href="https://judge.beecrowd.com/pt/profile/667004" target="_blank" class="icon-link">
+                    <img style="box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); border-radius: 5px;" src="photos/beecrowd-logo.png" alt="beecrowd" class="custom-icon">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Portfólio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 style="text-align: center;">Alguns dos Meus Projetos</h2>
+            <br><br>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="photos/projeto1.PNG" alt="Projeto 1">
+                    <div class="overlay">
+                        <h3>Projeto 1</h3>
+                        <p>Sistema de Fechamento de Caixa.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="photos/projeto2.PNG" alt="Projeto 2">
+                    <div class="overlay">
+                        <h3>Projeto 2</h3>
+                        <p>Página Web Cards Pokemons.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="photos/projeto3.PNG" alt="Projeto 3">
+                    <div class="overlay">
+                        <h3>Projeto 3</h3>
+                        <p>Formulário Login para Site .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Luiz Otávio Ferreira Silva - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+</body>
+</html>
